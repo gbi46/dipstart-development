@@ -48,10 +48,10 @@
         </p>
 	</div>
 	
-	<div class="rememberMe">
-		<?php echo CHtml::activeCheckBox($model,'rememberMe'); ?>
-		<?php echo CHtml::activeLabelEx($model,'rememberMe'); ?>
-	</div>
+	<!-- div class="rememberMe">
+		<?php //echo CHtml::activeCheckBox($model,'rememberMe'); ?>
+		<?php //echo CHtml::activeLabelEx($model,'rememberMe'); ?>
+	</div -->
 
 	<div class="nova-btn user_submit">
 		<?php echo CHtml::submitButton(UserModule::t("Login")); ?>

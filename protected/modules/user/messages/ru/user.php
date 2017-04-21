@@ -8,7 +8,7 @@ return array(
 	'username or email' => 'Логин или email',
 	'password' => 'Пароль',
 	'Remember me next time' => 'Запомнить меня',
-	'Username is incorrect.' => 'Пользователь с таким именем не зарегистрирован.',
+	'Username is incorrect.' => 'Пользователь с таким именем не зарегистрирован2.',
 	'Email is incorrect.' => 'Пользователь с таким электроным адресом не зарегистрирован.',
 	"This user's name already exists." => 'Пользователь с таким именем уже существует.',
 	"This user's email address already exists." => 'Пользователь с таким электронным адресом уже существует.',

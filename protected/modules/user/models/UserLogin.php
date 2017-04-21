@@ -46,7 +46,7 @@ class UserLogin extends CFormModel
 	 */
 	public function authenticate($attribute,$params)
 	{
-		if(!$this->hasErrors())  // we only want to authenticate when no input errors
+        if(!$this->hasErrors())  // we only want to authenticate when no input errors
 		{
 			$identity=new UserIdentity($this->username,$this->password);
 			$identity->authenticate();
