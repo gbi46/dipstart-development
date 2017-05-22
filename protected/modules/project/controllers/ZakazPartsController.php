@@ -269,7 +269,7 @@ class ZakazPartsController extends Controller {
 
 			/* пересчет времени завершения этапа в процентном соотношении */
 			$date_max = strtotime($zakaz->getDbmax_exec_date());
-			$date_min = strtotime($zakaz->getDbdate());
+			$date_min = (int)time();
 			$date = (int)(($date_max - $date_min)*($part['time']/100));
 			$timepart += $date;
 			$date = $date_min + $timepart;
